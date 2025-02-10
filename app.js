@@ -114,3 +114,77 @@
 // arr.sort();
 // console.log(arr)
 // console.log(arr.indexOf(9));
+
+// let arr = [10,20,30,40];
+// arr.forEach((value,index)=>{
+//     console.log("Number:",value,"Index",index);
+// })
+
+// let arr = [1,2,3,5];
+// arr.forEach((Number,Index)=>{
+//     console.log('Number',Number,'Index',Index);
+// })
+
+
+// let arr =[1,2,3,4,5];
+// let arrlen = arr.length;
+// arr.push(9);
+// arr.pop();
+// console.log(arrlen);
+// console.log(arr);
+
+// let obj = {
+//     name:'Muneeb',
+//     age:18,
+//     field:'Software Engeneering',
+//     greet:function()
+//     {
+//         console.log('Hn Bhai Kaise Ho Saare');
+
+//     }
+// };
+// for(let key in obj){
+//     console.log(key,"" , obj[key]);
+// }
+
+
+// let arr =[10,20,30,40,90];
+// for(let val of arr){
+//     console.log(val);
+// }
+
+
+// let strarr = ["Muneeb"];
+// for(let strg of strarr){
+//     console.log(strg);
+// }
+
+
+// let arr = [10,20,30,40];
+// let getSum = (arr)=>{
+//     let sum = 0;
+//     arr.forEach((value) => {
+//         sum = sum+value;        
+//     })
+// return sum;
+
+// }
+
+// let totalsum=getSum(arr);
+// console.log(totalsum);
+
+
+// let arr = [1,2,3,4,5];
+// let getsum = (arr)=>{
+//     let sum = 0;
+//     arr.forEach((value) => {
+        
+//         sum = sum + value;
+
+//     })
+//     return sum;
+
+// }
+
+// let totalsum = getsum(arr);
+// console.log(totalsum);
